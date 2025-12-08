@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PropAI — Never Lose a Lead</title>
+  <meta name="description" content="PropAI automates WhatsApp lead capture, qualification, and booking for real estate agents so you never miss a lead." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src='assets/logo.png' alt='PropAI logo' class='logo-img' />
+      </div>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#demo">Demo</a>
+        <a href="#contact" class="btn btn-outline">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Never lose another lead. Automate WhatsApp responses, qualify prospects, and book viewings — in seconds.</h1>
+          <p class="lead">PropAI gives real estate agents 24/7 AI-powered lead capture and follow-up so you close more deals with less work.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#demo">Book a free demo</a>
+            <a class="btn btn-ghost" href="#pricing">See pricing</a>
+          </div>
+          <ul class="trust">
+            <li>Works with WhatsApp Business API</li>
+            <li>Integrates with Google Calendar & Calendly</li>
+            <li>CRM sync to Google Sheets / Airtable</li>
+          </ul>
+        </div>
+        <div class="hero-form-card" id="demo">
+          <div class="card">
+            <h3>Get a quick setup — no dev needed</h3>
+            <p class="muted">Tell us about your agency and we'll set up a pilot.</p>
+            <form id="leadForm">
+              <label for="name">Full name</label>
+              <input id="name" name="name" required placeholder="Jane Tan" />
+              <label for="phone">Phone (WhatsApp)</label>
+              <input id="phone" name="phone" required placeholder="+65 9123 4567" />
+              <label for="role">Role</label>
+              <select id="role" name="role">
+                <option>Independent agent</option>
+                <option>Agency owner</option>
+                <option>Other</option>
+              </select>
+              <label for="message">Message (optional)</label>
+              <textarea id="message" name="message" placeholder="Tell us which districts you cover..."></textarea>
+              <button type="submit" class="btn btn-primary full">Request setup</button>
+              <p class="fineprint">By submitting, you consent to be contacted about PropAI services.</p>
+            </form>
+            <div id="success" class="success" hidden>
+              <h4>Thanks — we got your details!</h4>
+              <p>We will contact you on WhatsApp within 24 hours to start your setup. Meanwhile, check your inbox for a confirmation email.</p>
+              <a class="btn btn-ghost" href="#contact">Contact support</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Features built for real estate agents</h2>
+        <div class="grid features-grid">
+          <div class="feature">
+            <h3>WhatsApp Automation</h3>
+            <p>Auto-reply, qualify leads, capture details — even outside work hours. Connect via WATI.</p>
+          </div>
+          <div class="feature">
+            <h3>Auto Scheduling</h3>
+            <p>Send a Calendly link or create calendar events automatically after qualification.</p>
+          </div>
+          <div class="feature">
+            <h3>Lead Scoring</h3>
+            <p>Prioritise hot leads with a simple scoring system so you focus on deals that close faster.</p>
+          </div>
+          <div class="feature">
+            <h3>CRM Sync</h3>
+            <p>Save leads to Google Sheets, Airtable, HubSpot or Pipedrive automatically.</p>
+          </div>
+          <div class="feature">
+            <h3>Agent Handover</h3>
+            <p>Human-in-loop support — agents can take over conversation any time.</p>
+          </div>
+          <div class="feature">
+            <h3>Analytics</h3>
+            <p>Weekly reports: leads captured, response time, appointments booked, conversion rate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section alt">
+      <div class="container">
+        <h2>Pricing</h2>
+        <p class="muted">Simple, transparent pricing for agents and small agencies.</p>
+        <div class="grid pricing-grid">
+          <div class="card price-card">
+            <h3>Starter</h3>
+            <p class="price">S$79<span>/month</span></p>
+            <ul>
+              <li>WhatsApp automation (basic)</li>
+              <li>Google Sheet CRM</li>
+              <li>100 messages/mo</li>
+              <li>Email support</li>
+            </ul>
+            <a class="btn btn-primary" href="#demo">Start trial</a>
+          </div>
+          <div class="card price-card featured">
+            <h3>Pro</h3>
+            <p class="price">S$199<span>/month</span></p>
+            <ul>
+              <li>Full WATI integration</li>
+              <li>Lead scoring & scheduling</li>
+              <li>Priority support + onboarding</li>
+              <li>Multi-agent inbox</li>
+            </ul>
+            <a class="btn btn-primary" href="#demo">Get Pro</a>
+          </div>
+          <div class="card price-card">
+            <h3>Agency</h3>
+            <p class="price">Custom</p>
+            <ul>
+              <li>Custom flows & white-label</li>
+              <li>Dedicated onboarding</li>
+              <li>API access</li>
+            </ul>
+            <a class="btn btn-outline" href="#contact">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact & Next steps</h2>
+        <p class="muted">Need help setting up WATI or a custom automation flow? We’ll do it for you.</p>
+        <div class="contact-grid">
+          <div class="card">
+            <h3>Schedule a call</h3>
+            <p>Quick 15-minute walkthrough to show how PropAI works — we’ll set up your first flow.</p>
+            <a class="btn btn-ghost" href="https://calendly.com/your-calendly-link" target="_blank" rel="noopener">Book a walkthrough</a>
+          </div>
+          <div class="card">
+            <h3>Email us</h3>
+            <p>Prefer email? Reach out at <a href="mailto:hello@propai.example">hello@propai.example</a></p>
+          </div>
+          <div class="card">
+            <h3>Documentation</h3>
+            <p>Includes onboarding checklist, WATI setup steps and flow templates (provided after signup).</p>
+            <a class="btn btn-outline" href="#demo">Request docs</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2025 PropAI — Built for real estate agents.</p>
+        <nav>
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
