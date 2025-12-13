@@ -409,4 +409,24 @@ footer {
   .contact-form-box {
     order: 1;
   }
+.legal {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+  line-height: 1.7;
+}
+
+.legal h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.legal h2 {
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+
+.legal p {
+  margin-top: 10px;
+  color: #333;
 }
