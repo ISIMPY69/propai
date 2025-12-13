@@ -409,6 +409,9 @@ footer {
   .contact-form-box {
     order: 1;
   }
+}
+
+/* Legal Pages (Privacy Policy, Terms & Conditions) */
 .legal {
   max-width: 900px;
   margin: 80px auto;
@@ -429,4 +432,14 @@ footer {
 .legal p {
   margin-top: 10px;
   color: #333;
+}
+
+.legal ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #333;
+}
+
+.legal li {
+  margin-top: 5px;
 }
